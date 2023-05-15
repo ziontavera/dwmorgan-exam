@@ -10,10 +10,22 @@ cases for a given observation date where N is the maximum number of results. Inc
 number of deaths and recoveries per country in the response for that day.
 4. Include a README file with instructions on how to run the application.
 
-## Dependencies:
-1. install django
-2. install djangorestframework
-3. install psycopg2
+# Testing Tool
+ - Postman
+
+## Setup
+1. Create virtual environment
+ - `python -m venv {venv_name}`
+    - make sure python and pip is installed
+
+2. Install Dependencies
+ - `pip install django`
+ - `pip install djangorestframework`
+ - `pip install psycopg2`
+ 
+3. Run server
+ - `python manage.py runserver`
+
 
 ## Route http://127.0.0.1:8000/top/confirmed/ (Tested with Postman)
 - 1 route with 3 methods
